@@ -95,9 +95,9 @@ main h3 {
     background-image: url(../img/iphone_green.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 700px;
     height: 150px;
     margin: auto;
+    background-position: center;
 }
 .bottons-color{
     width: 450px;
@@ -139,5 +139,17 @@ main h3 {
 @media screen and (max-width:900px){
   body{
     overflow-x: hidden;
+  }
+  .text-center p{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+  .bottons-color{
+    width: 200px;
+    margin-bottom: 300px;
+  }
+  .iphone-image{
+    background-size: cover;
+    background-position: left
   }
 }
