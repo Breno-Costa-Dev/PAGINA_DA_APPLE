@@ -136,3 +136,8 @@ main h3 {
 .bottons-color > div > #five{
     background-color: #959dc1;
 }
+@media screen and (min-width:300px) and (max-width:900px){
+  body{
+    overflow-x: hidden;
+  }
+}
